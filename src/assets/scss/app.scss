@@ -1,0 +1,13 @@
+@import 'libs/libs';
+
+$header-h: 3rem;
+$nav-close-w: 4rem;
+
+$ux-dark: #141414;
+
+:root {
+  --header-h: #{$header-h};
+  --nav-close-w: #{$nav-close-w};
+
+  --ux-dark: #{$ux-dark};
+}

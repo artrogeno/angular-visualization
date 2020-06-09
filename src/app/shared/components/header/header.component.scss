@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: var(--header-h);
+  width: 100%;
+  background-color: var(--ux-dark);
+  color: var(--white);
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    .toggle {
+      width: var(--nav-close-w);
+    }
+    .brand {
+      width: 8rem;
+    }
+  }
+
+  .functions {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+  }
+
+  .settings {
+    padding-right: 1rem;
+    nav {
+      display: flex;
+      flex-direction: row;
+      li {
+        list-style: none;
+        padding-right: 1rem;
+        &:last-of-type {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}
