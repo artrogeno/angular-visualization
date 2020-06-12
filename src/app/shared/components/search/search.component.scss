@@ -1,0 +1,17 @@
+.search {
+  input {
+    background-color: var(--ux-dark-500);
+    color: var(--white);
+    border-radius: 0.2rem;
+    border-color: transparent;
+    border-width: 0.12rem;
+    border-style: solid;
+    padding: 0.2rem 0.6rem;
+
+    &,
+    &:active,
+    &:focus {
+      outline: none;
+    }
+  }
+}

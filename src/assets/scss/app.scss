@@ -1,13 +1,15 @@
 @import 'libs/libs';
 
-$header-h: 3rem;
+$header-h: 4rem;
 $nav-close-w: 4rem;
 
 $ux-dark: #141414;
+$ux-dark-500: #2c2c2c;
 
 :root {
   --header-h: #{$header-h};
   --nav-close-w: #{$nav-close-w};
 
   --ux-dark: #{$ux-dark};
+  --ux-dark-500: #{$ux-dark-500};
 }
