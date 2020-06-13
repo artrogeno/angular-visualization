@@ -27,7 +27,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/assets/scss/app.scss",
+              "src/styles.scss",
               "node_modules/@fortawesome/fontawesome-free/css/all.css"
             ],
             "scripts": [
@@ -92,7 +92,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/assets/scss/app.scss",
+              "src/styles.scss",
               "node_modules/@fortawesome/fontawesome-free/css/all.css"
             ],
             "scripts": [
